@@ -1,0 +1,123 @@
+[
+  {
+    "id": "match_1",
+    "teamA": "CSK",
+    "teamB": "RCB",
+    "date": "2024-03-22T14:30:00Z",
+    "venue": "M. A. Chidambaram Stadium",
+    "status": "completed",
+    "result": "CSK won by 6 wickets",
+    "scoreA": { "runs": 176, "wickets": 4, "overs": 18.4 },
+    "scoreB": { "runs": 173, "wickets": 6, "overs": 20.0 },
+    "innings": [
+      {
+        "team": "RCB",
+        "runs": 173,
+        "wickets": 6,
+        "overs": 20.0,
+        "topScorers": [
+          { "name": "Anuj Rawat", "runs": 48, "balls": 25, "sr": 192.0 },
+          { "name": "Dinesh Karthik", "runs": 38, "balls": 26, "sr": 146.1 }
+        ],
+        "topBowlers": [
+          { "name": "Mustafizur Rahman", "overs": 4, "runs": 29, "wickets": 4, "econ": 7.25 }
+        ]
+      },
+      {
+        "team": "CSK",
+        "runs": 176,
+        "wickets": 4,
+        "overs": 18.4,
+        "topScorers": [
+          { "name": "Rachin Ravindra", "runs": 37, "balls": 15, "sr": 246.6 },
+          { "name": "Shivam Dube", "runs": 34, "balls": 28, "sr": 121.4 }
+        ],
+        "topBowlers": [
+          { "name": "Cameron Green", "overs": 3, "runs": 27, "wickets": 2, "econ": 9.0 }
+        ]
+      }
+    ],
+    "playerOfMatch": "Mustafizur Rahman",
+    "highlightsSearchQuery": "CSK vs RCB IPL 2024 highlights match 1"
+  },
+  {
+    "id": "match_2",
+    "teamA": "MI",
+    "teamB": "GT",
+    "date": "2024-03-24T14:00:00Z",
+    "venue": "Narendra Modi Stadium",
+    "status": "completed",
+    "result": "GT won by 6 runs",
+    "scoreA": { "runs": 162, "wickets": 9, "overs": 20.0 },
+    "scoreB": { "runs": 168, "wickets": 6, "overs": 20.0 },
+    "innings": [
+      {
+        "team": "GT",
+        "runs": 168,
+        "wickets": 6,
+        "overs": 20.0,
+        "topScorers": [
+          { "name": "Sai Sudharsan", "runs": 45, "balls": 39, "sr": 115.3 }
+        ],
+        "topBowlers": [
+          { "name": "Jasprit Bumrah", "overs": 4, "runs": 14, "wickets": 3, "econ": 3.5 }
+        ]
+      },
+      {
+        "team": "MI",
+        "runs": 162,
+        "wickets": 9,
+        "overs": 20.0,
+        "topScorers": [
+          { "name": "Rohit Sharma", "runs": 43, "balls": 29, "sr": 148.2 }
+        ],
+        "topBowlers": [
+          { "name": "Spencer Johnson", "overs": 2, "runs": 25, "wickets": 2, "econ": 12.5 }
+        ]
+      }
+    ],
+    "playerOfMatch": "Sai Sudharsan",
+    "highlightsSearchQuery": "MI vs GT IPL 2024 highlights"
+  },
+  {
+    "id": "match_live",
+    "teamA": "KKR",
+    "teamB": "SRH",
+    "date": "2026-04-18T14:30:00Z",
+    "venue": "Eden Gardens",
+    "status": "live",
+    "result": null,
+    "scoreA": { "runs": 145, "wickets": 3, "overs": 15.2 },
+    "scoreB": null,
+    "innings": [
+      {
+        "team": "KKR",
+        "runs": 145,
+        "wickets": 3,
+        "overs": 15.2,
+        "topScorers": [
+          { "name": "Shreyas Iyer", "runs": 55, "balls": 32, "sr": 171.8 }
+        ],
+        "topBowlers": [
+          { "name": "Pat Cummins", "overs": 3, "runs": 24, "wickets": 1, "econ": 8.0 }
+        ]
+      }
+    ],
+    "playerOfMatch": null,
+    "highlightsSearchQuery": "KKR vs SRH IPL live match"
+  },
+  {
+    "id": "match_upcoming_1",
+    "teamA": "DC",
+    "teamB": "RR",
+    "date": "2026-04-20T14:00:00Z",
+    "venue": "Arun Jaitley Stadium",
+    "status": "upcoming",
+    "result": null,
+    "scoreA": null,
+    "scoreB": null,
+    "innings": [],
+    "playerOfMatch": null,
+    "highlightsSearchQuery": "DC vs RR IPL upcoming match"
+  }
+]
