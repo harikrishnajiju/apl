@@ -1,0 +1,44 @@
+[
+  {
+    "id": "forum_ipl_2024",
+    "name": "IPL 2024 Mega Discussion",
+    "description": "General discussion, predictions, and analysis for the current IPL season.",
+    "memberCount": 1542,
+    "createdAt": 1713000000000
+  },
+  {
+    "id": "forum_csk_fans",
+    "name": "CSK Fan Club - Whistle Podu",
+    "description": "The home for all Chennai Super Kings fans. Thala MS Dhoni!",
+    "memberCount": 985,
+    "createdAt": 1713000000000
+  },
+  {
+    "id": "forum_rcb_fans",
+    "name": "RCB Ultra Fans",
+    "description": "Ee Sala Cup Namde! Virat Kohli and AB de Villiers appreciation zone.",
+    "memberCount": 890,
+    "createdAt": 1713000000000
+  },
+  {
+    "id": "forum_mi_fans",
+    "name": "Mumbai Indians Paltan",
+    "description": "Discussion about the 5-time champions.",
+    "memberCount": 920,
+    "createdAt": 1713000000000
+  },
+  {
+    "id": "forum_fantasy_cricket",
+    "name": "Fantasy Cricket Advice",
+    "description": "Share your Dream11 teams, strategies, and player stats for upcoming matches.",
+    "memberCount": 2100,
+    "createdAt": 1713000000000
+  },
+  {
+    "id": "forum_umpire_decisions",
+    "name": "Umpiring & DRS Controversies",
+    "description": "Debate the latest umpiring blunders and tight DRS calls.",
+    "memberCount": 450,
+    "createdAt": 1713000000000
+  }
+]

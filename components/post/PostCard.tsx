@@ -8,8 +8,8 @@ export function PostCard({ post }: { post: any }) {
   const timeAgo = post.createdAt ? new Date(post.createdAt.seconds * 1000).toLocaleDateString() : "Just now";
 
   return (
-    <Card className="bg-neutral-900 border-neutral-800 text-white hover:border-neutral-700 transition-colors flex overflow-hidden">
-      <div className="bg-neutral-950 p-2 flex items-start border-r border-neutral-800">
+    <Card className="bg-neutral-900 border-neutral-800 text-white hover:border-neutral-700 transition-colors flex flex-row p-0 gap-0 overflow-hidden">
+      <div className="bg-neutral-950 p-2 flex flex-col items-center border-r border-neutral-800 shrink-0">
         <VoteButtons itemId={post.id} initialScore={post.score || 0} collectionName="posts" />
       </div>
       <CardContent className="p-4 flex-1">

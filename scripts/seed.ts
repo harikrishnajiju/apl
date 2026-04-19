@@ -47,6 +47,31 @@ async function seed() {
       await setDoc(doc(db, 'players', `player_${i}`), player);
     }
 
+    // 4. Seed Users
+    const usersData = JSON.parse(readFileSync(join(process.cwd(), 'data/users.json'), 'utf8'));
+    console.log(`Seeding ${usersData.length} users...`);
+    for (const user of usersData) {
+      await setDoc(doc(db, 'users', user.id), user);
+    }
+
+    // 5. Seed Forums
+    const forumsData = JSON.parse(readFileSync(join(process.cwd(), 'data/forums.json'), 'utf8'));
+    console.log(`Seeding ${forumsData.length} forums...`);
+    for (const forum of forumsData) {
+      const forumDoc = { ...forum };
+      forumDoc.createdAt = new Date(forum.createdAt);
+      await setDoc(doc(db, 'forums', forum.id), forumDoc);
+    }
+
+    // 6. Seed Posts
+    const postsData = JSON.parse(readFileSync(join(process.cwd(), 'data/posts.json'), 'utf8'));
+    console.log(`Seeding ${postsData.length} posts...`);
+    for (const post of postsData) {
+      const postDoc = { ...post };
+      postDoc.createdAt = new Date(post.createdAt);
+      await setDoc(doc(db, 'posts', post.id), postDoc);
+    }
+
     console.log("Seed process completed successfully.");
   } catch (error) {
     console.error("Error during seeding:", error);

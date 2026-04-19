@@ -84,8 +84,8 @@ export default function PostDetailPage({ params }: { params: { postId: string } 
         </Link>
       </div>
 
-      <Card className="bg-neutral-900 border-neutral-800 text-white mb-8 overflow-hidden flex flex-col md:flex-row">
-        <div className="bg-neutral-950 p-4 flex md:flex-col items-center border-b md:border-b-0 md:border-r border-neutral-800">
+      <Card className="bg-neutral-900 border-neutral-800 text-white mb-8 overflow-hidden flex flex-row p-0 gap-0">
+        <div className="bg-neutral-950 p-4 flex flex-col items-center border-r border-neutral-800 shrink-0">
           <VoteButtons itemId={post.id} initialScore={post.score || 0} collectionName="posts" />
         </div>
         <CardContent className="p-6 md:p-8 flex-1">

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "dummy_user_1",
+    "displayName": "DhoniFan7",
+    "email": "dhonifan@example.com",
+    "favoriteIplTeam": "CSK",
+    "favoriteNationalTeam": "India",
+    "bio": "Thala for a reason. CSK forever!",
+    "badge": { "letters": "CSK", "color": "#F9CD05" },
+    "friends": ["dummy_user_2", "dummy_user_3"]
+  },
+  {
+    "id": "dummy_user_2",
+    "displayName": "KohliCoverDrive",
+    "email": "vk18@example.com",
+    "favoriteIplTeam": "RCB",
+    "favoriteNationalTeam": "India",
+    "bio": "Waiting for Ee Sala Cup Namde since 2008.",
+    "badge": { "letters": "RCB", "color": "#EA1A2A" },
+    "friends": ["dummy_user_1"]
+  },
+  {
+    "id": "dummy_user_3",
+    "displayName": "RohitHitman",
+    "email": "rohit45@example.com",
+    "favoriteIplTeam": "MI",
+    "favoriteNationalTeam": "India",
+    "bio": "5 trophies and counting.",
+    "badge": { "letters": "MI", "color": "#004B8D" },
+    "friends": ["dummy_user_1"]
+  },
+  {
+    "id": "dummy_user_4",
+    "displayName": "RussellMuscle",
+    "email": "dreuss@example.com",
+    "favoriteIplTeam": "KKR",
+    "favoriteNationalTeam": "West Indies",
+    "bio": "Korbo Lorbo Jeetbo Re!",
+    "badge": { "letters": "KKR", "color": "#3A225D" },
+    "friends": []
+  },
+  {
+    "id": "dummy_user_5",
+    "displayName": "BoomBoomBumrah",
+    "email": "boom@example.com",
+    "favoriteIplTeam": "MI",
+    "favoriteNationalTeam": "India",
+    "bio": "Yorker king.",
+    "badge": { "letters": "MI", "color": "#004B8D" },
+    "friends": []
+  },
+  {
+    "id": "dummy_user_6",
+    "displayName": "OrangeArmyFan",
+    "email": "srhfan@example.com",
+    "favoriteIplTeam": "SRH",
+    "favoriteNationalTeam": "Australia",
+    "bio": "Pat Cummins is the GOAT captain.",
+    "badge": { "letters": "SRH", "color": "#F26522" },
+    "friends": ["dummy_user_2"]
+  },
+  {
+    "id": "dummy_user_7",
+    "displayName": "SanjuSam",
+    "email": "rrfan@example.com",
+    "favoriteIplTeam": "RR",
+    "favoriteNationalTeam": "India",
+    "bio": "Halla Bol!",
+    "badge": { "letters": "RR", "color": "#EA1A85" },
+    "friends": []
+  },
+  {
+    "id": "dummy_user_8",
+    "displayName": "PantSmash",
+    "email": "dc@example.com",
+    "favoriteIplTeam": "DC",
+    "favoriteNationalTeam": "India",
+    "bio": "Roar Macha",
+    "badge": { "letters": "DC", "color": "#00008B" },
+    "friends": []
+  },
+  {
+    "id": "dummy_user_9",
+    "displayName": "PunjabLions",
+    "email": "pbks@example.com",
+    "favoriteIplTeam": "PBKS",
+    "favoriteNationalTeam": "England",
+    "bio": "Sadda Punjab.",
+    "badge": { "letters": "PBKS", "color": "#ED1B24" },
+    "friends": []
+  },
+  {
+    "id": "dummy_user_10",
+    "displayName": "KLRahulClass",
+    "email": "lsg@example.com",
+    "favoriteIplTeam": "LSG",
+    "favoriteNationalTeam": "India",
+    "bio": "Nawabs of Lucknow.",
+    "badge": { "letters": "LSG", "color": "#179BC1" },
+    "friends": []
+  }
+]

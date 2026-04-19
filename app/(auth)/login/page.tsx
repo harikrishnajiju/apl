@@ -54,7 +54,7 @@ export default function LoginPage() {
                 placeholder="msdhoni@csk.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="bg-neutral-800 border-neutral-700"
+                className="bg-neutral-800 border-neutral-700 text-white placeholder:text-neutral-500"
                 required
               />
             </div>
@@ -65,7 +65,7 @@ export default function LoginPage() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="bg-neutral-800 border-neutral-700"
+                className="bg-neutral-800 border-neutral-700 text-white"
                 required
               />
             </div>
@@ -78,7 +78,7 @@ export default function LoginPage() {
             <div className="flex-grow border-t border-neutral-800"></div>
           </div>
           
-          <Button variant="outline" onClick={handleGoogleLogin} className="w-full mt-6 border-neutral-700 hover:bg-neutral-800 text-neutral-100">
+          <Button onClick={handleGoogleLogin} className="w-full mt-6 bg-white text-black hover:bg-neutral-200">
             Sign In with Google
           </Button>
         </CardContent>

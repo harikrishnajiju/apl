@@ -59,7 +59,7 @@ export default function SignupPage() {
                 placeholder="Fan123"
                 value={displayName}
                 onChange={(e) => setDisplayName(e.target.value)}
-                className="bg-neutral-800 border-neutral-700"
+                className="bg-neutral-800 border-neutral-700 text-white placeholder:text-neutral-500"
                 required
               />
             </div>
@@ -71,7 +71,7 @@ export default function SignupPage() {
                 placeholder="msdhoni@csk.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="bg-neutral-800 border-neutral-700"
+                className="bg-neutral-800 border-neutral-700 text-white placeholder:text-neutral-500"
                 required
               />
             </div>
@@ -82,7 +82,7 @@ export default function SignupPage() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="bg-neutral-800 border-neutral-700"
+                className="bg-neutral-800 border-neutral-700 text-white"
                 required
               />
             </div>
@@ -95,7 +95,7 @@ export default function SignupPage() {
             <div className="flex-grow border-t border-neutral-800"></div>
           </div>
           
-          <Button variant="outline" onClick={handleGoogleSignup} className="w-full mt-6 border-neutral-700 hover:bg-neutral-800 text-neutral-100">
+          <Button onClick={handleGoogleSignup} className="w-full mt-6 bg-white text-black hover:bg-neutral-200">
             Sign Up with Google
           </Button>
         </CardContent>

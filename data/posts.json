@@ -1,0 +1,98 @@
+[
+  {
+    "id": "post_1",
+    "forumId": "forum_ipl_2024",
+    "authorId": "dummy_user_1",
+    "authorName": "DhoniFan7",
+    "authorBadge": { "letters": "CSK", "color": "#F9CD05" },
+    "body": "Who do you guys think will win the Orange Cap this season? Kohli is looking in ominous touch, but I feel like Gaikwad might sneak up on everyone.",
+    "score": 45,
+    "createdAt": 1713200000000,
+    "upvotedBy": ["dummy_user_2", "dummy_user_3"],
+    "downvotedBy": []
+  },
+  {
+    "id": "post_2",
+    "forumId": "forum_ipl_2024",
+    "authorId": "dummy_user_2",
+    "authorName": "KohliCoverDrive",
+    "authorBadge": { "letters": "RCB", "color": "#EA1A2A" },
+    "body": "Honestly, the impact player rule is ruining the role of all-rounders in T20 cricket. Teams are just packing their side with 8 pure batters. Thoughts?",
+    "score": 128,
+    "createdAt": 1713250000000,
+    "upvotedBy": ["dummy_user_1", "dummy_user_4", "dummy_user_5"],
+    "downvotedBy": ["dummy_user_3"]
+  },
+  {
+    "id": "post_3",
+    "forumId": "forum_csk_fans",
+    "authorId": "dummy_user_1",
+    "authorName": "DhoniFan7",
+    "authorBadge": { "letters": "CSK", "color": "#F9CD05" },
+    "body": "Last over finishes at Chepauk hit different! Pathirana's yorkers were absolutely unplayable tonight. 🔥🔥",
+    "score": 89,
+    "createdAt": 1713300000000,
+    "upvotedBy": ["dummy_user_2", "dummy_user_5"],
+    "downvotedBy": []
+  },
+  {
+    "id": "post_4",
+    "forumId": "forum_rcb_fans",
+    "authorId": "dummy_user_2",
+    "authorName": "KohliCoverDrive",
+    "authorBadge": { "letters": "RCB", "color": "#EA1A2A" },
+    "body": "Another year, another bowling collapse at the Chinnaswamy. When will we ever build a solid bowling attack?",
+    "score": 250,
+    "createdAt": 1713350000000,
+    "upvotedBy": ["dummy_user_1", "dummy_user_6", "dummy_user_8"],
+    "downvotedBy": []
+  },
+  {
+    "id": "post_5",
+    "forumId": "forum_fantasy_cricket",
+    "authorId": "dummy_user_6",
+    "authorName": "OrangeArmyFan",
+    "authorBadge": { "letters": "SRH", "color": "#F26522" },
+    "body": "Should I make Sunil Narine my captain for today's match at Eden Gardens? The pitch report says it's a spin-friendly track.",
+    "score": 15,
+    "createdAt": 1713400000000,
+    "upvotedBy": ["dummy_user_4"],
+    "downvotedBy": []
+  },
+  {
+    "id": "post_6",
+    "forumId": "forum_umpire_decisions",
+    "authorId": "dummy_user_3",
+    "authorName": "RohitHitman",
+    "authorBadge": { "letters": "MI", "color": "#004B8D" },
+    "body": "That waist-high no-ball call against MI yesterday was an absolute joke. The third umpire needs to check their eyes.",
+    "score": -5,
+    "createdAt": 1713450000000,
+    "upvotedBy": [],
+    "downvotedBy": ["dummy_user_1", "dummy_user_2"]
+  },
+  {
+    "id": "post_7",
+    "forumId": "forum_ipl_2024",
+    "authorId": "dummy_user_4",
+    "authorName": "RussellMuscle",
+    "authorBadge": { "letters": "KKR", "color": "#3A225D" },
+    "body": "250+ scores are becoming way too common. The boundaries need to be pushed back and bats need to be regulated. It's getting boring for bowlers.",
+    "score": 56,
+    "createdAt": 1713500000000,
+    "upvotedBy": ["dummy_user_2", "dummy_user_5"],
+    "downvotedBy": []
+  },
+  {
+    "id": "post_8",
+    "forumId": "forum_mi_fans",
+    "authorId": "dummy_user_5",
+    "authorName": "BoomBoomBumrah",
+    "authorBadge": { "letters": "MI", "color": "#004B8D" },
+    "body": "SKY is back! That 360 degree hitting in the middle overs completely changed the momentum.",
+    "score": 112,
+    "createdAt": 1713550000000,
+    "upvotedBy": ["dummy_user_3"],
+    "downvotedBy": []
+  }
+]
